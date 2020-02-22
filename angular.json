@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "request-http-jota": {
@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "request-http-jota"
+    }
+  },
+  "defaultProject": "request-http-jota",
+  "cli": {
+    "analytics": "f8fd292d-cf67-4d86-9a7b-1988e3392a66"
+  }
 }
