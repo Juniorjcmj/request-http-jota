@@ -1,0 +1,26 @@
+http://localhost:3000/cursos
+
+###
+http://localhost:3000/cursos/1
+
+###
+
+POST http://localhost:3000/cursos HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "PHP OO" 
+}
+###
+PUT http://localhost:3000/cursos/1 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "PHP OO" 
+}
+
+###
+
+DELETE  http://localhost:3000/cursos/1 HTTP/1.1
+content-type: application/json
+

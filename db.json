@@ -1,0 +1,16 @@
+{
+  "cursos": [
+    {
+      "nome": "PHP OO",
+      "id": 1
+    },
+    {
+      "nome": "sample",
+      "id": 2
+    },
+    {
+      "nome": "PHP OO",
+      "id": 3
+    }
+  ]
+}
