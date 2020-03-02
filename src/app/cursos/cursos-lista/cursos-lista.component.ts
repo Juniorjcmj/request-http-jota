@@ -42,17 +42,17 @@ export class CursosListaComponent implements OnInit {
         return empty();
       })
     );
-    this.service.list()
-      .pipe(
-        catchError(error => empty())
-      )
-      .subscribe(
-        dados => {
-          console.log(dados);
-        }
+    // this.service.list()
+     // .pipe(
+// catchError(error => empty())
+    //  )
+    //  .subscribe(
+     //   dados => {
+     //     console.log(dados);
+     //   }
         // error => console.error(error),
        // () => console.log('Observable completo')
-    );
+   // );
   }
     handleError() {
       this.alertService.shoAlertDanger('Erro ao carregar curso. Tente novamente mais tarde!');
