@@ -23,10 +23,10 @@
             <td>{{curso.nome}}</td>
             <td>
               <span class="float-right">
-                <button class="btn btn-outline-warning mb-1 btn-sm">
+                <button class="btn btn-outline-warning mb-1 btn-sm" (click)="onEdit(curso.id)">
                   Atualizar
                 </button>
-  
+
                 <button class="btn btn-outline-danger mb-1 btn-sm" >
                   Remover
                 </button>
@@ -35,7 +35,7 @@
           </tr>
         </tbody>
       </table>
-  
+
 
       <ng-template #loadingNoError>
         <div *ngIf="error$ | async; else loading">
@@ -44,12 +44,11 @@
         <ng-template #loading>
           <span>Carregando Cursos...</span>
         </ng-template>
-       
+
       </ng-template>
-  
-    
+
+
     </div>
   </div>
-  
-  
-  
+
+
