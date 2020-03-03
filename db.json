@@ -21,20 +21,12 @@
       "id": 5
     },
     {
-      "id": 6,
-      "nome": "Material 4444"
-    },
-    {
       "id": 7,
       "nome": "Materal 555"
     },
     {
       "nome": "Material 6",
       "id": 8
-    },
-    {
-      "id": 9,
-      "nome": "React Native "
     }
   ]
 }
