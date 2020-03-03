@@ -34,22 +34,24 @@ export class CursosFormComponent implements OnInit {
     //   });
     // });
 
-    this.route.params
-    .pipe(
-      map((params: any) => params['id']),
-      switchMap(id => this.service.loadById(id))
-       // switchMap(cursos => obterAulas)
-      )
-    .subscribe(curso => this.updateForm(curso));
+    // this.route.params
+    // .pipe(
+    //   map((params: any) => params['id']),
+    //   switchMap(id => this.service.loadById(id))
+    //    // switchMap(cursos => obterAulas)
+    //   )
+    // .subscribe(curso => this.updateForm(curso));
 
      // concatMap -> ordem da requisiçao importa
     // mergeMap -> ordem nao importa
     // exhaustMap -> casos de login
 
+    const curso = this.route.snapshot.data['curso'];
+
     this.form = this.fb.group({
-      id: [null],
+      id: [curso.id],
       nome: [
-        null,
+        curso.nome,
         [
           Validators.required,
           Validators.minLength(3),
