@@ -7,6 +7,7 @@ import { CursosListaComponent } from './cursos-lista/cursos-lista.component';
 import { CursosFormComponent } from './cursos-form/cursos-form.component';
 
 
+
 @NgModule({
   declarations: [CursosListaComponent, CursosFormComponent],
   imports: [
