@@ -2,7 +2,7 @@
   "cursos": [
     {
       "id": 7,
-      "nome": "Materal 555"
+      "nome": "Materal"
     },
     {
       "nome": "Material 6",
@@ -10,15 +10,15 @@
     },
     {
       "id": 9,
-      "nome": "SigepApp2"
-    },
-    {
-      "id": 10,
-      "nome": "SigepCPES1236"
+      "nome": "SigepApp2020"
     },
     {
       "id": 11,
-      "nome": "rtrtrt"
+      "nome": "C# avançado"
+    },
+    {
+      "id": 12,
+      "nome": "PrimeNG"
     }
   ]
 }
